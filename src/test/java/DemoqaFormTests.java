@@ -8,7 +8,7 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 
 public class DemoqaFormTests {
     public static void main(String[] args) {
-        WebDriverManager.chromedriver().setup();
+//        WebDriverManager.chromedriver().setup();
 
         ChromeOptions options =new ChromeOptions();
         options.addArguments("--remote-allow-origins=*");
